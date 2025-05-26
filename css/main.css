@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ff7979;
+  background-image: url("/image/Group 5.png");
+  display: flex;
+}
+
+.gaucheetnonpasLAgauche {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gaucheetnonpasLAgauche2 {
+  color: white;
+  width: 525px;
+}
+
+h1 {
+  font-size: 56px;
+  margin-bottom: 32px;
+}
+
+.droiteetnonpasLAdroite {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  background-color: white;
+  width: 540px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  border-radius: 8px;
+}
+
+input {
+  width: 400px;
+  height: 56px;
+  border-radius: 4px;
+}
+
+input:focus {
+  color: red;
+}
+
+button {
+  width: 400px;
+  height: 56px;
+  background-color: #38cc8b;
+  border-radius: 4px;
+}
+
+label {
+  display: none;
+}
+
+.try {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 24px;
+  height: 56px;
+  width: 400px;
+  background-color: #5e54a4;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
