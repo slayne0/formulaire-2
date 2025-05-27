@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <div class="gaucheetnonpasLAgauche">
-      <div class="gaucheetnonpasLAgauche2">
+    <div class="gauche">
+      <div class="gauche2">
         <h1>Learn to code by watching others</h1>
         <p>
           See how experienced developers solve problems in real-time. Watching
@@ -19,22 +19,33 @@
         </p>
       </div>
     </div>
-    <div class="droiteetnonpasLAdroite">
-      <div class="droiteetnonpasLAdroite2">
-        <div class="try">try 7 day blablabla</div>
+    <div class="droite">
+      <div class="droite2">
+        <p class="try">
+          Try it free 7 days
+          <span class="money"> then $20/mo. thereafter </span>
+        </p>
         <form action="">
           <label for="firstname"></label>
           <input id="name" placeholder="firstname" type="text" />
+          <p class="hidden" class="name-error"></p>
           <label for="secondname"></label>
-          <input id="secondname" placeholder="name again" type="text" />
+          <input id="secondname" placeholder="Last Name" type="text" />
+          <p class="hidden" class="second-name-error"></p>
           <label for="email"></label>
-          <input id="email" placeholder="email" type="email" />
+          <input id="email" placeholder="Email Adresse" type="email" />
+          <p class="hidden" class="email-error"></p>
           <label for="password"></label>
-          <input id="password" placeholder="password" type="password" />
-          <button type="submit">click</button>
+          <input id="password" placeholder="Password" type="password" />
+          <p class="hidden" class=""></p>
+          <button type="submit">CLAIM YOUR FREE TRIAL</button>
+          <p class="term-service">
+            By clicking the button, you are agreeing to our
+            <span>Terms and Services</span>
+          </p>
         </form>
       </div>
     </div>
   </body>
-  <script src="app.jsù"></script>
+  <script src="./app.js"></script>
 </html>
